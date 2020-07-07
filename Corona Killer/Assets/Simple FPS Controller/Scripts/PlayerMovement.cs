@@ -30,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
     private CapsuleCollider cc;
 
     private bool enableMovement = true;
+    private bool isDead = false;
 
     [Header("Movement properties")]
     public float walkSpeed = 8.0f;
@@ -98,22 +99,26 @@ public class PlayerMovement : MonoBehaviour
         return vec;
     }
 
-    private void OnCollisionStay(Collision collision)
+    private void OnCollisionExit(Collision collision)
     {
-        isGrounded = false;
-        for(int i = 0; i < collision.contactCount; ++i)
+        if(collision.gameObject.tag.Equals("Ground"))
         {
-            if (Vector3.Dot(Vector3.up, collision.contacts[i].normal) > .2f)
-            {
-                isGrounded = true;
-                return;
-            }
+            isGrounded = false;
         }
     }
 
-    private void OnCollisionExit(Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
-        isGrounded = false;
+        if (collision.gameObject.tag.Equals("Virus"))
+        {
+            isDead = true;
+            DisableMovement();
+        }
+
+        if(collision.gameObject.tag.Equals("Ground"))
+        {
+            isGrounded = true;
+        }
     }
 
     private void UnblockJump()

@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class GunScript : MonoBehaviour
 {
-    [SerializeField] private GameObject gun;
     [SerializeField] private GameObject soapBullet;
     // Start is called before the first frame update
     void Start()
@@ -18,7 +17,7 @@ public class GunScript : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            Instantiate(soapBullet, gun.transform.position, gun.transform.rotation);
+            Instantiate(soapBullet, transform.position, transform.rotation);
         }
     }
 }

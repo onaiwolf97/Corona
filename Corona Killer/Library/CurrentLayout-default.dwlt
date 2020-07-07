@@ -101,7 +101,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 471}
   m_MaxSize: {x: 10002, y: 14021}
   vertical: 1
-  controlID: 80
+  controlID: 82
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_MinSize: {x: 708, y: 471}
   m_MaxSize: {x: 18003, y: 14021}
   vertical: 0
-  controlID: 33
+  controlID: 14
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -272,7 +272,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 1530
+    width: 1367
     height: 926
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &12
@@ -314,11 +314,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Models
+  - Assets/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\anton\OneDrive\Desktop\Folders\Fun Code\Corona\Corona\Corona
     Killer
@@ -326,9 +326,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5e400000
-    m_LastClickedID: 16478
-    m_ExpandedIDs: 00000000484000004a4000004c4000004e40000050400000524000005440000000ca9a3b
+    m_SelectedIDs: 30340000
+    m_LastClickedID: 13360
+    m_ExpandedIDs: 00000000183400001a3400001c3400001e3400002034000022340000243400003634000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -356,7 +356,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000484000004a4000004c4000004e400000504000005240000054400000
+    m_ExpandedIDs: 00000000183400001a3400001c3400001e340000203400002234000024340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -383,7 +383,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -479,9 +479,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0c400000
-      m_LastClickedID: 16396
-      m_ExpandedIDs: 26e2ffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -541,9 +541,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.0404334, y: 0.78018904, z: 0.38322476}
+    m_Target: {x: -3.497, y: 1.5, z: 0}
     speed: 2
-    m_Value: {x: 1.0404334, y: 0.78018904, z: 0.38322476}
+    m_Value: {x: -3.497, y: 1.5, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -589,13 +589,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.32456338, y: 0.43801332, z: -0.17337054, w: 0.82024586}
+    m_Target: {x: -0.05568156, y: 0.8637236, z: -0.097839884, w: -0.49132475}
     speed: 2
-    m_Value: {x: 0.32455403, y: 0.43800068, z: -0.17336553, w: 0.8202222}
+    m_Value: {x: -0.055679012, y: 0.86368406, z: -0.09783541, w: -0.49130225}
   m_Size:
-    m_Target: 3.9950607
+    m_Target: 2.5863068
     speed: 2
-    m_Value: 3.9950607
+    m_Value: 2.5863068
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -651,7 +651,7 @@ MonoBehaviour:
   m_SerializedCustomFieldsNames: []
   m_SerializedCustomFieldsValues: []
   m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
+  m_ShowGizmos: 1
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
   m_TargetSize: {x: 1367, y: 905}
@@ -661,7 +661,7 @@ MonoBehaviour:
   m_MaximizeOnPlay: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
